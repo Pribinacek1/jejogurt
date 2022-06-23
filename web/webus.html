@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Vzhled.css" type="text/css">
+    <title>Spongebob</title>
+</head>
+<body>  
+ 
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="webus.html">Hlavní stránka</a>
+    <a href="Podřadné HTML/Tématické filmy.html">Tématické filmy</a>
+    <a href="Podřadné HTML/Postavy.html">Postavy</a>
+    <a href="Podřadné HTML/Producent.html">Producent</a>
+  </div>
+  <div id="main">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; <strong>Menu</strong></span>
+    <h1 class="nadpis1">Spongebob</h1>  <a target="_blank" href="https://en.wikipedia.org/wiki/SpongeBob_SquarePants"><img class="hausobrazek" src="img/haus-removebg-preview.png"><img  class="spongebobobrazek" src="img/SpongeBob_SquarePants_character.svg.png"> </a>
+    <h2 class="podnadpis">Základní informace:</h2> 
+    <div class="text">
+    <p>Americký animovaný komediální televizní seriál vytvořený <strong>pedagogem námořní vědy a animátorem Stephenem Hillenburgem</strong> pro <strong>Nickelodeon.</strong></p> 
+    <p>Sériál zaznamenává dobrodružství titulního hrdiny <strong>Spongeboba</strong> a jeho vodních přátel ve fiktivním podmořském městě <strong>Bikini Bottom(Zátiší bikin).</strong></p>
+    <p>Byl <strong>pátým nejdéle běžící americkým animovaným seriálem</strong>, tento seriál  má nejvyšší hodnocení na Nickelodeonu.</p>
+    <p>Zajistil pro Paramount Consumer Products,v roce 2019 více než <strong>13 miliard dolarů</strong> v merchandisingu.</p>
+
+  <script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+  </script>
+</body>
+</html>

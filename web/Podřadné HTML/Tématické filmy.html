@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Vzhled.css" type="text/css">  
+    <title>Tématické filmy</title>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="../webus.html">Hlavní stránka</a>
+        <a href="Tématické filmy.html">Tématické filmy</a>
+        <a href="Postavy.html">Postavy</a>
+        <a href="Producent.html">Producent</a>
+      </div>
+      
+      <div id="main">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; <strong>Menu</strong></span>
+        <h1 class="nadpis1">Tématické filmy</h1> 
+        <h2 class="podnadpis" style="text-align: center;">Filmy a Seriály</h2>
+        <table class="table">
+          <tr class="table">
+            <th class="table">Název</th>
+            <th class="table">Typ</th>
+            <th class="table">Datum vydání</th>
+            <th class="table">Délka trvání</th>
+          </tr>
+          <tr>
+            <th class="table">Spongebob v kalhotách</th>
+            <th class="table">Seriál</th>
+            <th class="table">1999</th>
+            <th class="table">105h 52min</th>
+          </tr>
+          <tr>
+            <th class="table">Spongebob v kalhotách: Film</th>
+            <th class="table">Film</th>
+            <th class="table">2004</th>
+            <th class="table">1h 27min</th>
+          </tr>
+          <tr>
+            <th class="table">Spongebob ve filmu: Houba na suchu</th>
+            <th class="table">Film</th>
+            <th class="table">2015</th>
+            <th class="table">1h 32min</th>
+          </tr>
+          <tr>
+            <th class="table">Spongebob ve filmu: Houba na útěku</th>
+            <th class="table">Film</th>
+            <th class="table">2020</th>
+            <th class="table">1h 23min</th>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <th class="table1">Spongebob v kalhotách</th>
+            <th class="table1">Spongebob v kalhotách: Film</th>  
+            <th class="table1">Spongebob ve filmu: Houba na suchu</th>
+            <th class="table1">Spongebob ve filmu: Houba na útěku</th>
+          </tr>
+          <tr>
+            <th><img src="../img/serial.jpg" width="60%" style="padding-bottom: 50%;"></th>
+            <th><img src="../img/vefilmu.jpg" width="60%" style="padding-bottom: 50%;"></th>
+            <th><img src="../img/nasuchu.jpg" width="60%" style="padding-bottom: 50%;"></th>
+            <th><img src="../img/nauteku.jpg" width="60%" style="padding-bottom: 50%;"></th>
+          </tr>
+        </table1>
+      </div>
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+      }
+    </script>
+</body>
+</html>
